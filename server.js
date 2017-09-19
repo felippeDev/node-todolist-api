@@ -7,7 +7,7 @@ bodyParser = require('body-parser');
 routes = require('./api/routes/todoListRoutes');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://app:app123@ds040017.mlab.com:40017/todolist',{
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/todolist',{
   useMongoClient: true,
 }); 
 
