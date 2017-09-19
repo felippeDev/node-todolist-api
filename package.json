@@ -1,0 +1,35 @@
+{
+  "name": "node-todolist-api",
+  "version": "1.0.0",
+  "description": "A simple Node todo list API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felippeDev/node-todolist-api.git"
+  },
+  "keywords": [
+    "node-api",
+    "todo-list",
+    "webservices",
+    "nodejs"
+  ],
+  "author": "felippeDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felippeDev/node-todolist-api/issues"
+  },
+  "homepage": "https://github.com/felippeDev/node-todolist-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "b": "^2.0.1",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12"
+  }
+}
