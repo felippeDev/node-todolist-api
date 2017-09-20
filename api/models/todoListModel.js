@@ -4,7 +4,7 @@ let Schema = mongoose.Schema;
 let TaskSchema = new Schema({
   name: {
     type: String,
-    required: 'Kindly enter the name of the task'
+    required: 'Task name is required'
   },
   Created_date: {
     type: Date,
